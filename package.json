@@ -1,0 +1,29 @@
+{
+  "name": "tdd-testes-lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "test:ui": "npx vitest --ui"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lu-2112/tdd-testes-lab2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lu-2112/tdd-testes-lab2/issues"
+  },
+  "homepage": "https://github.com/Lu-2112/tdd-testes-lab2#readme",
+  "devDependencies": {
+    "@vitest/ui": "^4.1.1",
+    "vitest": "^4.1.1"
+  }
+}
